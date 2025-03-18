@@ -6,6 +6,7 @@ A RESTful API for AdTurbo, an SaaS platform that simplifies ads traffic manageme
 
 This API provides the backend services needed for AdFlow to interact with Meta Ads. It handles authentication, campaign management, analytics, and automation through the Meta Marketing API.
 
+
 ## Key Features
 
 - OAuth 2.0 integration with Meta platforms
@@ -15,7 +16,16 @@ This API provides the backend services needed for AdFlow to interact with Meta A
 - Creative management and A/B testing
 - Webhook handlers for real-time updates
 
-## Architecture
+## Technical Requirements
+
+### Prerequisites
+
+- Node.js 18+
+- PostgreSQL 16+
+- Redis 6+
+- TypeORM
+
+### Architecture
 
 The API follows a modular architecture:
 
@@ -26,7 +36,7 @@ The API follows a modular architecture:
 - **Automation Module**: Rules engine and automated actions
 - **Creative Module**: Ad creative management and generation
 
-## Authentication
+### Authentication
 
 The API implements Meta's OAuth 2.0 flow for secure authentication:
 
@@ -115,15 +125,6 @@ Primary entities in the database:
 - `metrics`: Performance metrics
 - `automation_rules`: Automation rule configurations
 - `automation_logs`: Automation execution logs
-
-## Technical Requirements
-
-### Prerequisites
-
-- Node.js 18+
-- PostgreSQL 16+
-- Redis 6+
-- TypeORM
 
 ## Core Features
 
