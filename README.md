@@ -1,6 +1,6 @@
 # AdTurbo API - Ads AI
 
-A RESTful API for AdTurbo, an SaaS platform that simplifies paid traffic management, optimization, and automation for Meta Ads.
+A RESTful API for AdTurbo, an SaaS platform that simplifies paid traffic management, optimization, and automation.
 
 ## Overview
 
